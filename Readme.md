@@ -1,4 +1,4 @@
-# AI-Based Fake Account Identifier
+# Fake Social Media Account Detection using Machine Learning
 
 A machine learning-based classification project that explores the identification of potentially fake social media accounts through feature analysis and comparative evaluation of multiple classification algorithms.
 
