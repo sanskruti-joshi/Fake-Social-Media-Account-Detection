@@ -1,37 +1,78 @@
-🖥️Technologies used in the project🖥️:
+# AI-Based Fake Account Identifier
 
-Operating System 💻:<br>
-Windows<br>
-Linux<br>
+A machine learning-based classification project that explores the identification of potentially fake social media accounts through feature analysis and comparative evaluation of multiple classification algorithms.
 
-Front End 📱:
+## Overview
 
-![HTML](https://img.shields.io/badge/HTML-%20%23E65100
-  )
-![CSS](https://img.shields.io/badge/CSS-%232B59A1
- )
-![JS](https://img.shields.io/badge/JS-%20%23FFD600
- )
-![Bootstrap](https://img.shields.io/badge/Bootstrap-%20%2523E65100
-)
+This project investigates the use of machine learning techniques to distinguish between fake and genuine social media accounts using account-related features.
 
-BackEnd 🌐:
+The project combines a machine learning implementation with a supporting website that documents the problem, methodology, data preparation, exploratory analysis and model evaluation.
 
-![PhP](https://img.shields.io/badge/PhP-%20%23B730E1?style=for-the-badge
- )
-![Python](https://img.shields.io/badge/Python-%20%23B730E1?style=for-the-badge
- )
+## Machine Learning
 
-Database 🗃️:
+Five classification algorithms were implemented and compared:
 
-![MySQL](https://img.shields.io/badge/MySQL-%20%23B730E1?style=for-the-badge
- )
+- Random Forest
+- Linear Support Vector Classifier (SVC)
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- XGBoost
 
-Connect with us 🔗💕:
-<br>
-[@Sanskruti Joshi]()
-[![Github](https://img.shields.io/badge/github-100000?style=for-the-badge&logo=GitHub&logoColor=white&labelColor=black&color=black')](https://github.com/Woman-in-STEM)
+### Methodology
 
-[@Priyanka Rout]()
-[![Github](https://img.shields.io/badge/github-100000?style=for-the-badge&logo=GitHub&logoColor=white&labelColor=black&color=black')](https://github.com/PRout1911)
+The machine learning workflow includes:
+
+1. Data collection and understanding
+2. Exploratory Data Analysis (EDA)
+3. Data preprocessing and feature preparation
+4. Model development
+5. Model evaluation
+6. Comparative analysis
+
+### Evaluation Metrics
+
+Models are evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+
+*Final evaluation results will be documented after validation of the train-test evaluation procedure.*
+
+## Technology Stack
+
+| Component | Technologies |
+|---|---|
+| Programming Language | Python |
+| Machine Learning | Scikit-learn, XGBoost |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Frontend | HTML, CSS, JavaScript, Bootstrap |
+| Backend | PHP |
+| Database | MySQL |
+
+## Repository Structure
+
+- `machine-learning/` — Machine learning implementation, notebooks and datasets.
+- `website/` — Supporting project website and its source code.
+- `documentation/` — Project report and supplementary documentation.
+
+## Supporting Website
+
+The project includes a multi-page website presenting the project overview, data understanding, preprocessing, exploratory analysis, modelling, evaluation and conclusions.
+
+## Contributors
+
+- Sanskruti Joshi
+- Priyanka Rout
+
+## Documentation
+
+The project report and supplementary implementation documentation are available in the repository.
+
+## Project Status
+
+Academic project — machine learning evaluation and repository documentation are being reviewed and updated.
 
