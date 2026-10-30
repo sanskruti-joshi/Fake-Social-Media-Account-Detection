@@ -1,0 +1,54 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE and Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Model artifacts
+# =========================
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
